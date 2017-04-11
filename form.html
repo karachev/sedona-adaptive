@@ -17,11 +17,65 @@
         </ul>
       </nav>
       <div class="intro">
-        <h1 class="intro__title">Sedona</h1>
+        <!-- <h1 class="intro__title">Sedona</h1> -->
       </div>
     </header>
     <main class="page-main">
-
+      <h1 class="page-main__title">Оставьте свой отзыв</h1>
+      <p class="page-main__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      <form class="order-form" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="order-form__set order-form__set--name">
+          <div class="order-form__wrapper">
+            <h2 class="order-form__title">Представьтесь:</h2>
+            <div class="order-form__group">
+              <label>ИМЯ*:<input type="text" name="name" placeholder="Петр"></label>
+              <label>ФАМИЛИЯ*:<input type="text" name="surname" placeholder="Иванов"></label>
+              <label>Отчество:<input type="text" name="father-name" placeholder="Александрович"></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="order-form__set order-form__set--contacts">
+          <div class="order-form__wrapper">
+            <h2 class="order-form__title">Контактная информация:</h2>
+            <div class="order-form__group">
+              <label>Контактный телефон*:<input type="tel" name="phone" placeholder="Введите телефон"></label>
+              <label>Электронная почта*:<input type="email" name="email" placeholder="Введите e-mail"></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="order-form__set order-form__set--feeling">
+          <div class="order-form__wrapper">
+            <h2 class="order-form__title">Ваше общее впечатление:</h2>
+            <div class="order-form__group">
+              <input type="radio" name="feeling" id="positive" value="Скорее положительное" checked><label for="positive">Скорее положительное</label>
+              <input type="radio" name="feeling" id="negative" value="Скорее отрицательное"><label for="negative">Скорее отрицательное</label>
+              <input type="radio" name="feeling" id="no-answer" value="Затрудняюсь ответить"><label for="no-answer">Затрудняюсь ответить</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="order-form__set order-form__set--checklist">
+          <div class="order-form__wrapper">
+            <h2 class="order-form__title">Посещенные достопримечательности:</h2>
+            <div class="order-form__group">
+              <input type="checkbox" name="Devil-Bridge" id="Devil-Bridge" checked><label for="Devil-Bridge">Мост Дьявола</label>
+              <input type="checkbox" name="Slide-park" id="Slide-park"><label for="Slide-park">Слайд-парк</label>
+              <input type="checkbox" name="Mount-Bell" id="Mount-Bell" checked><label for="Mount-Bell">Гора-Колокол</label>
+              <input type="checkbox" name="Red-rocks" id="Red-rocks" checked><label for="Red-rocks">Красные скалы</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="order-form__set order-form__set--other">
+          <div class="order-form__wrapper">
+            <h2 class="order-form__title">Опишите свои эмоции:</h2>
+            <div class="order-form__group">
+              <textarea name="othe" id="othe" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <div class="order-form__footer">
+          <button class="order-form__btn btn" type="submit">Отправить отзыв</button>
+        </div>
+      </form>
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
