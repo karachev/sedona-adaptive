@@ -1,7 +1,3 @@
-body {
-  background: green;
-}
-
 /*Переменные*/
 @import "variables.scss";
 
@@ -18,6 +14,7 @@ body {
 @import "blocks/hashtag.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
+@import "blocks/font.scss";
 
 /*index.html*/
 @import "blocks/adventages.scss";

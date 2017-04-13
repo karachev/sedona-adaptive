@@ -1,3 +1,11 @@
 .main-nav {
+  background-color: $color-main;
+  font-family: $font--bold;
 
+  &__link {
+    color: $white;
+    @include font-properties(18px, 40px);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 }
