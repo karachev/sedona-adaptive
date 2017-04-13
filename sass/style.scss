@@ -1,3 +1,34 @@
 body {
   background: green;
 }
+
+/*Переменные*/
+@import "variables.scss";
+
+/*Миксины*/
+
+/*Base*/
+
+/*Общие блоки*/
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/page-main.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/hashtag.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
+
+/*index.html*/
+@import "blocks/adventages.scss";
+@import "blocks/adventage-item.scss";
+@import "blocks/featured.scss";
+@import "blocks/contacts.scss";
+
+/*photo.html*/
+@import "blocks/photo.scss";
+@import "blocks/photo-item.scss";
+@import "blocks/video.scss";
+
+/*form.html*/
+@import "blocks/order-form.scss";
