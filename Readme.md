@@ -1,7 +1,4 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-
-* Студент: [Павел Карачев](https://up.htmlacademy.ru/adaptive/10/user/198655).
-* Наставник: `Неизвестно`.
+# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 ---
 
@@ -27,17 +24,17 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`.
 
 Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455590/09e03f32-206a-11e6-9dc8-32d4c11edc90.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455709/984b9002-206d-11e6-89fd-63eeaadc25df.png">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455592/0a060884-206a-11e6-863d-531a4023ac2e.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455710/986fc058-206d-11e6-9874-3392a84cbb6f.png">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
 Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455689/2092071c-206d-11e6-883b-7a92865a0e1d.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455711/9875cd36-206d-11e6-8612-3e5da5bde374.png">
 
 Клонировать репозиторий можно так:
 
@@ -55,7 +52,7 @@ git clone SSH-адрес_вашего_форка
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый HTML и CSS](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/198655-mishka.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/198655-mishka
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/198655-mishka/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/198655-mishka?type=dev
+[travis-image]: https://travis-ci.org/htmlacademy-adaptive/110039-sedona.svg?branch=master
+[travis-url]: https://travis-ci.org/htmlacademy-adaptive/110039-sedona
+[dependency-image]: https://david-dm.org/htmlacademy-adaptive/110039-sedona/dev-status.svg?style=flat-square
+[dependency-url]: https://david-dm.org/htmlacademy-adaptive/110039-sedona?type=dev
