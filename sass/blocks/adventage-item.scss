@@ -1,3 +1,24 @@
 .adventage-item {
+  &__title {
+    color: $black;
+    font-family: $font--bold;
+    @include font-properties(18px, 26px);
+  }
 
+  &__number,
+  &__text {
+    color: $color-text;
+    font-family: $font;
+    @include font-properties(14px, 21px);
+  }
+
+  &--full {
+    background-color: $color-main;
+
+    .adventage-item__title,
+    .adventage-item__number,
+    .adventage-item__text {
+      color: #fff;
+    }
+  }
 }

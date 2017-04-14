@@ -1,3 +1,9 @@
 .hashtag {
-
+  &__link {
+    font-family: $font--bold;
+    color: $black;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include font-properties(21px, 26px);
+  }
 }

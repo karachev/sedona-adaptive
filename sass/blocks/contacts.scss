@@ -1,3 +1,22 @@
 .contacts {
+  &__title {
+    font-family: $font--bold;
+    color: $black;
+    @include font-properties(21px, 26px);
+  }
 
+  &__text {
+    font-family: $font;
+    color: $black;
+    @include font-properties(14px, 24px);
+  }
+
+  &__btn {
+    display: block;
+    background-color: $color-main;
+    color: #ffffff;
+    font-family: $font--bold;
+    @include font-properties(21px, 26px);
+    text-decoration: none;
+  }
 }
