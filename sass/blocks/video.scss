@@ -1,3 +1,15 @@
 .video {
+  text-transform: uppercase;
 
+  &__title {
+    font-family: $font--bold;
+    color: $black;
+    @include font-properties(18px, 26px);
+  }
+
+  &__text {
+    font-family: $font;
+    color: $color-text;
+    @include font-properties(14px, 24px);
+  }
 }

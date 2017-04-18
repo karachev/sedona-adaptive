@@ -1,3 +1,34 @@
 .order-form {
+  text-transform: uppercase;
 
+  &__title {
+    font-family: $font--bold;
+    color: $black;
+    @include font-properties(18px, 26px);
+  }
+
+  label {
+    font-family: $font;
+    color: $color-text;
+    @include font-properties(14px, 26px);
+  }
+
+  input[type=text],
+  input[type=tel],
+  input[type=email],
+  textarea {
+    color: $black;
+    font-family: $font--bold;
+    @include font-properties(18px, 26px);
+  }
+
+  &__btn {
+    display: block;
+    font-family: $font--bold;
+    @include font-properties(21px, 26px);
+    color: $white;
+    background-color: $color-main;
+    border: none;
+    outline: none;
+  }
 }

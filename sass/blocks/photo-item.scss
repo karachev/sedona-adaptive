@@ -1,3 +1,20 @@
 .photo-item {
+  text-transform: uppercase;
+  @include font-properties(14px, 24px);
 
+  &__name {
+    font-family: $font--bold;
+    color: $black;
+    text-decoration: none;
+  }
+
+  &__author {
+    font-family: $font;
+    color: $color-text;
+  }
+
+  &__likes {
+    color: $black;
+    font-family: $font--bold;
+  }
 }

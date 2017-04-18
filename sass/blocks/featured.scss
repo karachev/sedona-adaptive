@@ -1,3 +1,15 @@
 .featured {
+  &__title {
+    font-family: $font--bold;
+    @include font-properties(18px, 26px);
+    color: $black;
+    text-transform: uppercase;
+  }
 
+  &__text {
+    font-family: $font;
+    @include font-properties(14px, 21px);
+    color: $black;
+    text-transform: uppercase;
+  }
 }
