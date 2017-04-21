@@ -1,4 +1,6 @@
 .featured {
+  background-color: $bg-featured;
+
   &__title {
     font-family: $font--bold;
     @include font-properties(18px, 26px);

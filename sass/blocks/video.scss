@@ -12,4 +12,8 @@
     color: $color-text;
     @include font-properties(14px, 24px);
   }
+
+  &__button {
+    background-color: $bg-video-button
+  }
 }
