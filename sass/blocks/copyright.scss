@@ -1,8 +1,17 @@
 .copyright {
+  margin: auto;
+
   &__text {
+    display: inline;
     color: $black;
     font-family: $font;
     @include font-properties(14px, 26px);
     text-transform: uppercase;
+  }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
   }
 }

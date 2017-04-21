@@ -1,9 +1,17 @@
 .hashtag {
+  margin: auto;
+
   &__link {
     font-family: $font--bold;
     color: $black;
     text-decoration: none;
     text-transform: uppercase;
     @include font-properties(21px, 26px);
+  }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
   }
 }

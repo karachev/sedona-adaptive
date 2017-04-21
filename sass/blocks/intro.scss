@@ -4,4 +4,10 @@
   &--index {
     min-height: 389px;
   }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }

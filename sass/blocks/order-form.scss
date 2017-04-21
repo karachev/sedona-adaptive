@@ -31,4 +31,10 @@
     border: none;
     outline: none;
   }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }

@@ -1,4 +1,7 @@
 .photo-item {
+  display: flex;
+  flex-direction: column;
+
   text-transform: uppercase;
   @include font-properties(14px, 24px);
 
@@ -16,5 +19,11 @@
   &__likes {
     color: $black;
     font-family: $font--bold;
+  }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
   }
 }

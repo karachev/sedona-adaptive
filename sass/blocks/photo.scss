@@ -1,3 +1,10 @@
 .photo {
+  display: flex;
+  flex-direction: column;
 
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }

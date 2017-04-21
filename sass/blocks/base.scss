@@ -1,4 +1,19 @@
 body {
+  width: 320px;
   margin: 0px;
   padding: 0px;
+
+  @media #{$tablet-widths} {
+    width: 768px;
+  }
+
+  @media #{$desktop-widths} {
+    width: 1200px;
+  }
 }
+
+/*
+Седона:
+320px — мобильная версия,
+768px — планшетная версия,
+1200px — десктопная версия.*/

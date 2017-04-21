@@ -13,4 +13,10 @@
     @include font-properties(14px, 26px);
     color: $color-text;
   }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }

@@ -2,10 +2,22 @@
   background-color: $color-main;
   font-family: $font--bold;
 
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
   &__link {
     color: $white;
     @include font-properties(18px, 40px);
     text-transform: uppercase;
     text-decoration: none;
+  }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
   }
 }

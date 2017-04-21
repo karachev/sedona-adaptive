@@ -16,4 +16,10 @@
   &__button {
     background-color: $bg-video-button
   }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }

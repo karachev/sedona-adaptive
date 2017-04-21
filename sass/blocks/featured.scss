@@ -14,4 +14,10 @@
     color: $black;
     text-transform: uppercase;
   }
+
+  @media #{$tablet-widths} {
+  }
+
+  @media #{$desktop-widths} {
+  }
 }
