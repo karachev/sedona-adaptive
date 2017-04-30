@@ -1,11 +1,70 @@
 .main-nav {
+  position: relative;
   background-color: $color-main;
   font-family: $font--bold;
+
+  &__toggle {
+    position: absolute;
+    top: 25px;
+    right: 14px;
+    font-size: 0px;
+    background-color: $color-main;
+    border: none;
+    outline: none;
+  }
+
+  &__toggle:before,
+  &__toggle:after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 4px;
+    background-color: #ffffff;
+  }
+
+  &__toggle:before {
+    position: absolute;
+    top: 1px;
+    transform: rotate(45deg);
+  }
+
+  &__toggle:after {
+    transform: rotate(-45deg);
+  }
 
   &__list {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
     list-style: none;
+  }
+
+  &__item {
+    padding: 8px 0px;
+    box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+    &--logo {
+      order: 5;
+    }
+
+    &--index {
+      order: 1;
+    }
+
+    &--photo {
+      order: 2;
+    }
+
+    &--form {
+      order: 3;
+    }
+
+    &--academy {
+      order: 4;
+    }
   }
 
   &__link {
