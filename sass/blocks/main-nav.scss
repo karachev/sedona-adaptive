@@ -47,7 +47,19 @@
                 inset 0 1px 0 rgba(255, 255, 255, 0.2);
 
     &--logo {
+      position: relative;
+      padding: 0px;
+      height: 56px;
       order: 5;
+      background-color: $white;
+
+      img {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin: 0px auto;
+        text-align: center;
+      }
     }
 
     &--index {

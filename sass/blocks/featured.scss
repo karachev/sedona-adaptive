@@ -1,7 +1,18 @@
 .featured {
-  background-color: $bg-featured;
+  background-color: $white;
+
+  &__item {
+    display: flex;
+  }
+
+  &__description {
+    margin-top: 17px;
+    margin-left: 31px;
+  }
 
   &__title {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: $font--bold;
     @include font-properties(18px, 26px);
     color: $black;

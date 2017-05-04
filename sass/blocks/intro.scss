@@ -3,6 +3,11 @@
 
   &--index {
     min-height: 389px;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
 
   @media #{$tablet-widths} {

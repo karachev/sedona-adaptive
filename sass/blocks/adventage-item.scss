@@ -1,8 +1,29 @@
 .adventage-item {
+
+  &__description {
+    padding-bottom: 40px;
+  }
+
   &__title {
+    margin-bottom: 9px;
+    padding-top: 55px;
+
+    text-align: center;
     color: $black;
     font-family: $font--bold;
     @include font-properties(18px, 26px);
+  }
+
+  &__number {
+    display: block;
+    text-align: center;
+  }
+
+  &__text {
+    width: 265px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
   }
 
   &__number,
@@ -10,6 +31,12 @@
     color: $color-text;
     font-family: $font;
     @include font-properties(14px, 21px);
+  }
+
+  &__image {
+    img {
+      display: block;
+    }
   }
 
   &--full {

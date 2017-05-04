@@ -2,13 +2,22 @@
   background-color: $white;
   text-transform: uppercase;
 
+  &__title,
+  &__text {
+    width: 255px;
+    margin: auto;
+  }
+
   &__title {
+    margin-top: 39px;
     font-family: $font--bold;
     @include font-properties(18px, 26px);
     color: $black;
+    text-align: center;
   }
 
   &__text {
+    margin-top: 27px;
     font-family: $font;
     @include font-properties(14px, 26px);
     color: $color-text;
