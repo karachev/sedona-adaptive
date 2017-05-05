@@ -1,5 +1,16 @@
 .adventages {
   margin-top: 27px;
+  position: relative;
+
+  &--border:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 15px solid white;
+  }
 
   @media #{$tablet-widths} {
   }

@@ -6,12 +6,16 @@
 
   &__title {
     margin-bottom: 9px;
-    padding-top: 55px;
+    padding-top: 39px;
 
     text-align: center;
     color: $black;
     font-family: $font--bold;
     @include font-properties(18px, 26px);
+
+    &--border {
+      padding-top: 55px;
+    }
   }
 
   &__number {

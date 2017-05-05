@@ -1,8 +1,14 @@
 .featured {
+  margin-top: 18px;
   background-color: $white;
+  margin-bottom: 38px;
 
   &__item {
     display: flex;
+    margin-bottom: 12px;
+
+    &--food {
+    }
   }
 
   &__description {
@@ -20,6 +26,10 @@
   }
 
   &__text {
+    width: 199px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+
     font-family: $font;
     @include font-properties(14px, 21px);
     color: $black;
