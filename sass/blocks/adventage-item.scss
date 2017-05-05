@@ -38,6 +38,7 @@
   }
 
   &__image {
+    /*background-image: url(../img/photo-4-mobile@1x.jpg);*/
     img {
       display: block;
     }
@@ -50,6 +51,30 @@
     .adventage-item__number,
     .adventage-item__text {
       color: #fff;
+    }
+  }
+
+  &--half {
+    background-color: $bg-featured;
+
+    .adventage-item__title {
+      margin-top: 0px;
+      padding-top: 26px;
+    }
+
+    .adventage-item__text {
+      padding-bottom: 27px;
+      border-bottom: 1px solid $color-featured-border;
+    }
+
+    .adventage-item__description {
+      padding-bottom: 0px;
+    }
+  }
+
+  &--tourist {
+    .adventage-item__text {
+      border-bottom: none;
     }
   }
 

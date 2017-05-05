@@ -1,5 +1,18 @@
 .social {
   margin: auto;
+  margin-top: 22px;
+
+  &__link {
+    display: inline-block;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+    font-size: 0px;
+
+    &--facebook {
+      margin: 0px 4px;
+    }
+  }
 
   @media #{$tablet-widths} {
   }

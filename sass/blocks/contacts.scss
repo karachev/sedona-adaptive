@@ -1,11 +1,18 @@
 .contacts {
+  padding-top: 13px;
+  padding-bottom: 10px;
+
   &__title {
     font-family: $font--bold;
     color: $black;
     @include font-properties(21px, 26px);
+    text-align: center;
   }
 
   &__text {
+    width: 265px;
+    margin: auto;
+    text-align: center;
     font-family: $font;
     color: $black;
     @include font-properties(14px, 24px);
@@ -13,11 +20,24 @@
 
   &__btn {
     display: block;
+    width: 280px;
+    margin: auto;
+    margin-top: 36px;
+    padding: 16px 0px;
+    text-align: center;
     background-color: $color-main;
     color: #ffffff;
     font-family: $font--bold;
     @include font-properties(21px, 26px);
     text-decoration: none;
+  }
+
+  iframe {
+    display: block;
+    margin-top: 49px;
+    width: 320px;
+    height: 350px;
+    background-image: url(../img/bg-map-mobile@1x.jpg);
   }
 
   @media #{$tablet-widths} {
